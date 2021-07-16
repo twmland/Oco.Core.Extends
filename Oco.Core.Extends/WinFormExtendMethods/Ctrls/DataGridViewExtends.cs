@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Oco.Core.Extends.WinFormExtends.Ctrls
+namespace Oco.Core.Extends.WinFormExtendMethods.Ctrls
 {
     /// <summary>
     /// DataGridView 的擴充方法

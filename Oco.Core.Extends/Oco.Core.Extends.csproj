@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,11 +44,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DefaultTypeExtendMethods\AttributeExtends.cs" />
+    <Compile Include="DefaultTypeExtendMethods\ColorExtends.cs" />
+    <Compile Include="DefaultTypeExtendMethods\DateTimeExtends.cs" />
+    <Compile Include="DefaultTypeExtendMethods\ObjectExtends.cs" />
+    <Compile Include="DefaultTypeExtendMethods\PropertyInfoExtends.cs" />
     <Compile Include="ExtendsExceptions\OcoExceptionBase.cs" />
+    <Compile Include="ExtendTypes\BaseListItemModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WinFormExtends\Ctrls\DataGridViewExtends.cs" />
-    <Compile Include="WinFormExtends\Ctrls\WinformControlExtends.cs" />
-    <Compile Include="WinFormExtends\DefaultTypes\StringExtends.cs" />
+    <Compile Include="WinFormExtendMethods\Ctrls\ComboBoxExtends.cs" />
+    <Compile Include="WinFormExtendMethods\Ctrls\DataGridViewExtends.cs" />
+    <Compile Include="WinFormExtendMethods\Ctrls\WinformControlExtends.cs" />
+    <Compile Include="DefaultTypeExtendMethods\BoolExtends.cs" />
+    <Compile Include="DefaultTypeExtendMethods\Int32Extends.cs" />
+    <Compile Include="DefaultTypeExtendMethods\StringExtends.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
